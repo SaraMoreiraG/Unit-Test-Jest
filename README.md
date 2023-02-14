@@ -77,27 +77,12 @@ d) Before running our test we have to update our `package.json` file to specify 
 }
 ```
 
-6. Type on the console the following command:
+e) Type on the console the following command:
 ```sh
 $ npm run test
 ```
 
-
-This project comes with the necessary files to start working, but you have two options to start:
-
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-unit-test-with-jest.git
-
-b) You can clone this repository on your local computer:
-```sh
-$ git clone https://github.com/breatheco-de/exercise-unit-test-with-jest.git
-```
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
-
-Then follow this instructions:
-
-1. Get into the exercise folder: `$ cd exercise-unit-test-with-jest`
-2. Download learnpack globally (if you don't have it already): `$ npm i learnpack -g`
-3. Start the exercise: `$ learnpack start`
+✅✅✅ Your test should be working!
 
 ## What is this example about?
 
