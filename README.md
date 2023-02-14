@@ -16,7 +16,7 @@ a) Before installing jest, we have to initialize the project using npm package m
 ```sh
 $ npm init -y
 ```
-💡 If you installed successfully you will find a `package.json` file on your project root.
+	💡 If you installed successfully you will find a `package.json` file on your project root.
 
 
 b) Now it's time to install jest.
@@ -24,7 +24,7 @@ b) Now it's time to install jest.
 ```sh
 $ npm install jest --save
 ```
-💡 If your package was installed successfully you will find that:
+	💡 If your package was installed successfully you will find that:
 
 1. There is a new folder in your root called `./node_modules`
 2. If you open your package.json file, you will find `jest` inside the `dependencies` object
