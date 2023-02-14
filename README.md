@@ -4,8 +4,8 @@ There are many great alternatives to create unit tests using javascript or node 
 
 We are using [Jest](https://jestjs.io/) because currently is the most popular one, with most documentation and better integrated with React.js.
 
+Important: Before starting make sure you have node version 12+:
 ```
-Important: Before starting make sure you have node version 12+
 	$ node -v
 ```
 
@@ -82,7 +82,7 @@ e) Type on the console the following command:
 $ npm run test
 ```
 
-✅✅✅ Your test should be working!
+✅✅   Your test should be working!  💃
 
 ## What is this example about?
 
