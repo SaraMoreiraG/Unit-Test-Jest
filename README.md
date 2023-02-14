@@ -2,13 +2,13 @@
 
 There are many great alternatives to create unit tests using javascript or node like: Mocha, Jasmin or Jest.
 
-Let's use [Jest](https://jestjs.io/) because currently is the most popular one, with most documentation and better integrated with React.js.
+We are using [Jest](https://jestjs.io/) because currently is the most popular one, with most documentation and better integrated with React.js.
 
 ```
-Before starting make sure you have node version 12+.
-```sh
-$ node -v
-```
+IMPORTANT: Before starting make sure you have node version 12+
+
+	$ node -v
+
 ```
 
 ## 🌱  How to create a unit test
