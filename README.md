@@ -6,7 +6,7 @@ We are using [Jest](https://jestjs.io/) because currently is the most popular on
 
 Important: Before starting make sure you have node version 12+:
 ```
-	$ node -v
+$ node -v
 ```
 
 ## 🌱  How to create a unit test
