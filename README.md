@@ -29,12 +29,8 @@ $ npm install jest --save
 1. There is a new folder in your root called `./node_modules`
 2. If you open your package.json file, you will find `jest` inside the `dependencies` object
 
-c) Create an app.js file on the root of your project that contains the following content:
-To verify that the result has been successful, run the following command on your console:
+c) Create an `app.js` file on the root of your project that contains the following content:
 
-$ node app.js
-
-To create a small example, we want you to fill the content of app.js with the 'sum' function, that adds two given numbers.
 ```js
 // this is my function that sums two numbers
 const sum = (a,b) => {
@@ -48,7 +44,16 @@ console.log(sum(7,3))
 // (similar to the keyword `export` when using webpack)
 module.exports = { sum };
 ```
-4. The next step is to create a test.js file on the root of the project that will include our tests.
+
+💡 To verify that the result has been successful, run the following command on your console:
+
+```sh
+$ node app.js
+```
+
+c) The next step is to create a `test.js` file on the root of the project that will include our tests.
+
+```js
 // import the function sum from the app.js file
 const { sum } = require('./app.js');
 
@@ -60,17 +65,22 @@ test('adds 14 + 9 to equal 23', () => {
     // we expect the sum of those 2 numbers to be 23
     expect(total).toBe(23);
 });
+```
 
-5. Before running our test we have to update your package.json file to specify the test command with the word jest like this:
+d) Before running our test we have to update our `package.json` file to specify the test command with the word jest like this:
+
+```js
 {
   "scripts": {
     "test": "jest"
   }
 }
+```
 
 6. Type on the console the following command:
+```sh
 $ npm run test
-
+```
 
 
 This project comes with the necessary files to start working, but you have two options to start:
